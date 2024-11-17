@@ -1,0 +1,19 @@
+.navbar {
+  font-family: Arial, serif;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    opacity: 100%;
+    background-color: black;
+    padding: 10px;
+    transition: opacity ease-in-out 0.2s;
+  }
+
+  .nav-link:hover {
+    opacity: 50%;
+  }
+}

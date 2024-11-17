@@ -6,12 +6,16 @@ import {AppComponent} from './app.component';
 import {HomeComponent} from './pages/home/home.component';
 import {ListComponent} from './pages/home/list/list.component';
 import {FormsModule} from '@angular/forms';
+import { AboutComponent } from './pages/about/about.component';
+import { NavbarComponent } from './navigation/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ListComponent
+    ListComponent,
+    AboutComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
