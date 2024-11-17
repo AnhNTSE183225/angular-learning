@@ -1,0 +1,17 @@
+<div class="home">
+  <div class="form">
+    <div class="input-field">
+      <span>Name</span>
+      <input [(ngModel)]="nameInput" type="text" placeholder="Your name.."/>
+    </div>
+    <div class="input-field">
+      <span>Gender</span>
+      <select [(ngModel)]="genderInput">
+        <option>Male</option>
+        <option>Female</option>
+      </select>
+    </div>
+    <button (click)="add()" >Add</button>
+  </div>
+  <app-list/>
+</div>
